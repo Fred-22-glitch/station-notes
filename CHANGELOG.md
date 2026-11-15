@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.6.0
+- Station Notes is now paid, with a 5-day free trial. Everything is unlocked during the trial except the Soft cyberpunk and Melted ice cream themes (1-minute preview). The app warns when the trial is about to end (and the phone sends a notification). After the trial, editing needs a key; without it, notes stay readable, searchable and exportable.
+- Sync: a group keeps up to 4 devices. A device that joins a group brings along the devices it already synced with (before, pairing the laptop with the phone dropped the desktop). Settings → Sync devices lists them all, each with a remove button.
+- Sync: entering the code works even when the router blocks discovery between Wi-Fi and cable (the app scans the local network directly), shows "Connecting…" and explains what went wrong without closing the field.
+- Spell check on Android: tapping an underlined word no longer opens anything (the keyboard already corrects); a long press offers Ignore and Add to dictionary. Desktop keeps suggestions on right-click.
+- Spell check on Linux: misspelled words are underlined again.
+- In-app notices now appear at the top left (next to the Station Notes name on desktop).
+- Larger task checkboxes on desktop.
+- Vault: "Open folder" opens it in the file manager (the Files app on Android; works from the AppImage on Linux).
+- The repository, releases and license no longer use the old name; the app is distributed by OmniStation.
+
 ## 0.5.9
 - Numbered lists: a divider (—) inserted inside a list now goes after the list, and the next line has no number. Before, the divider landed inside the item and everything typed after kept the numbering (4, 5, 6…). A new list after it starts at 1, and so does the part left over when an item in the middle is turned off.
 - Pressing Enter twice on an empty line resets formatting: it leaves the list, removes the heading and brings alignment back to left (center, right or justified), without opening the alignment menu.
@@ -31,7 +42,7 @@
 - Android: the dot in the middle of canvas arrows is invisible (you can still bend the arrow); the "Improved AI" menu opens inside the screen and explains what it is.
 
 ## 0.5.1
-- **Notes Dim is now called Station Notes.** Same app: updating keeps notes, vault, backups, Pro key and sync. On desktop, backups move to Documents/Station Notes/backups (old ones move too), and Android exports go to Downloads/Station Notes.
+- **The app is now called Station Notes.** Same app: updating keeps notes, vault, backups, Pro key and sync. On desktop, backups move to Documents/Station Notes/backups (old ones move too), and Android exports go to Downloads/Station Notes.
 - Practice exam (study AI, Pro): 5 multiple-choice questions drawn from the note, one at a time, with an explanation for each answer and a score at the end. Answer with the keyboard (1–4 or A–D); can be saved as a note.
 - Welcome note on first launch: a checklist to tick while trying the features.
 - Favorites in a folder at the top of the list; one tap opens the note.
@@ -80,8 +91,8 @@
 - Tapping the folder icon now opens and closes the folder; color is set from ⋯ → Folder color.
 
 ## 0.4.1
-- Vault shared with other apps: dot folders (.obsidian, .stversions, .trash, .space…) are no longer read, and a folder with no Notes Dim notes no longer shows up as an empty folder. In 0.4.0 those folders appeared in the sidebar and spread to other devices through sync.
-- An empty folder created in the app gets a `_pasta-notes-dim.txt` marker file that identifies it in the vault; deleting the folder removes the marker too.
+- Vault shared with other apps: dot folders (.obsidian, .stversions, .trash, .space…) are no longer read, and a folder with no notes from the app no longer shows up as an empty folder. In 0.4.0 those folders appeared in the sidebar and spread to other devices through sync.
+- An empty folder created in the app gets a small marker file that identifies it in the vault; deleting the folder removes the marker too.
 - Folder names with accents stored in decomposed form (common on Android) are treated as the same name: no duplicate folder in the list or on disk.
 - One-time cleanup on launch: empty folders registered by 0.4.0 and dot folders are dropped from the list; a note that ended up in one of them goes back to its original folder. No folders or files are deleted from disk.
 - Note date: moved from the sidebar into the note, top-right corner.
@@ -217,10 +228,10 @@
 - Read aloud: the app reads the note or the selected text; in Review mode, hidden text isn't read.
 - Notebook-style PDF: the note comes out as a lined notebook page, ready to print.
 - Share image: creates a story-sized or square image of the note.
-- Notes Dim Pro (one-time payment): text → mind map, study pack (exam prep by subject area, essay map, exam schedule, mistakes log, full ABNT reading notes) and PDF/image without the watermark, with extra papers and colors. Everything that was free stays free.
+- Station Notes Pro (one-time payment): text → mind map, study pack (exam prep by subject area, essay map, exam schedule, mistakes log, full ABNT reading notes) and PDF/image without the watermark, with extra papers and colors. Everything that was free stays free.
 
 ## 0.2.6
-- Added a "Support" screen (⚙ → Apoie o Notes Dim) with Pix (QR code on desktop, copy-and-paste code, payment link) and Ko-fi for people outside Brazil.
+- Added a "Support" screen (⚙ → Support) with Pix (QR code on desktop, copy-and-paste code, payment link) and Ko-fi for people outside Brazil.
 
 ## 0.2.5
 - Reverted the 0.2.4 resize handles: they made the canvas stick when dragging with a finger.
@@ -237,7 +248,7 @@
 - Windows: same icon as Android, including window and taskbar.
 
 ## 0.2.3
-- Windows: the installer closes any running instance before installing, fixing the "Não é possível fechar o Notes Dim" error during updates. The real cause was the desktop build bundling Capacitor/Android files with paths longer than 260 characters.
+- Windows: the installer closes any running instance before installing, fixing the "can't close the app" error during updates. The real cause was the desktop build bundling Capacitor/Android files with paths longer than 260 characters.
 - Faster updates: silent install and differential download.
 
 ## 0.2.2
