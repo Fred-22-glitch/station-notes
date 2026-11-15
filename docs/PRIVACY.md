@@ -8,7 +8,7 @@
 - Android permissions: access to the vault folder you select through the system folder picker, internet (updates only), Wi-Fi state and multicast (device sync on the local network), vibration (long-press feedback) and installing app updates (requested by Android when updating).
 - Read aloud uses the device's own text-to-speech voice (Windows or Android). Station Notes doesn't send the text anywhere.
 - If you activate Station Notes Pro, the key is stored on the device and in the vault folder. It contains the email used for the purchase and is verified offline.
-- Automatic backups stay on the device: `Documents/Station Notes/backups` on Windows and `Android/data/app.notesdim/files/backups` on Android.
+- Automatic backups stay on the device: `Documents/Station Notes/backups` on Windows and the app's own folder under `Android/data` on Android.
 - To remove all data, uninstall the app and delete the vault folder and the backups folder.
 
 See [LICENSE](../LICENSE) for the terms of use.
