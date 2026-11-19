@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.7.0
+- Station Notes is free again, with no trial and no lock: editor, canvas, vault, export and sync. Anyone whose trial had expired can edit again. Pro (one-time payment) adds the study AI, mistake notebook metrics and spaced review, the Soft cyberpunk and Melted ice cream themes, and advanced export (notebook PDF, unbranded image and canvas for Obsidian).
+- Vault badge replaces the note clock: "Saved locally • Backup OK". Clicking it opens version history with the selected version and the current note side by side (removed in red, added in green), "Restore" and "Restore as a new note".
+- Selection menu in text notes and canvas blocks: bold, italic, underline, strikethrough, color, highlight, link, clear, "Flashcard" (adds a card to the note's deck) and "Mistakes" (sends the excerpt to the mistake notebook). On desktop these buttons left the top toolbar.
+- `/` at the start of a line opens the block list: headings, lists, tasks, quote, code, table, divider, drawing, image, link and study AI.
+- Ctrl+P: searches notes, canvases, mistake notebook, flashcards and commands (`>` shows commands only).
+- Note panel (Panel button): heading outline, notes that mention this one and the study assistant. AI summaries and key points stay in the assistant instead of being appended to the text; "Add to the end of the note" moves them in.
+- Split view (Split button): another note, canvas or PDF on the right half. Selected text dragged onto a canvas becomes a block linked to its source note.
+- PDF reader: Import PDF under ＋ New. PDF text can be selected and sent to the note alongside (with the page number), to a flashcard or to the mistake notebook. The file is stored on this device only.
+- Mistake notebook: metrics panel with today's review goal, accuracy by subject and most common mistake types. Every "Remembered/Got it wrong again" is now logged.
+- Study AI with a whole folder (note panel and Ctrl+P): full practice test, study plan and summary from every note in the folder.
+- Before downloading the AI: total and free memory, AVX2 (desktop) and "Test speed" (0.7 s). The app recommends the enhanced AI, the light one or an external AI.
+- Soft cyberpunk and Melted ice cream themes: lighter study headings for long reading.
+- License: Pro refund within 7 days, no reason needed, and the AI model licenses.
+
 ## 0.6.0
 - Station Notes is now paid, with a 5-day free trial. Everything is unlocked during the trial except the Soft cyberpunk and Melted ice cream themes (1-minute preview). The app warns when the trial is about to end (and the phone sends a notification). After the trial, editing needs a key; without it, notes stay readable, searchable and exportable.
 - Sync: a group keeps up to 4 devices. A device that joins a group brings along the devices it already synced with (before, pairing the laptop with the phone dropped the desktop). Settings → Sync devices lists them all, each with a remove button.
