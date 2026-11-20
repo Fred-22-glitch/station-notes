@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.7.1
+- Device sync: far fewer "(conflict)" copies. A conflict now only happens when the note's content really changed on both devices since the last exchange; opening a note, moving it to another folder, favoriting it or turning on read mode no longer count as edits.
+- Read mode: fixed the "Failed to execute 'removeChild'" error when turning it on.
+- Phone: selecting text no longer jumps around. The selection menu (bold, color, flashcard…) sat right below the selected text, on top of the selection handles, so dragging a handle grabbed the menu; it now stays docked above the toolbar.
+- Lists: each line keeps the list type it was given. Switching line 2 to "List" (or "Tasks") no longer changes a numbered line 1; the Ctrl+Shift+7, 8 and 9 shortcuts follow the same rule.
+- Tab works like in Word: in the text it inserts a tab (in a list it indents the item; in a table it moves to the next cell). Outside the text it no longer moves focus to the search box and other buttons.
+- Desktop spell check: a single click on an underlined word shows the suggestions (on the phone the keyboard still handles it).
+- Everything created from ＋ New, Ctrl+N, templates, flashcards, import and PDF goes to the end of the list, outside folders, ready to be dragged where it belongs.
+- Study AI: redesigned screen, a list in 3 groups (understand, practice, plan) with a one-line description and the estimated time of each action.
+- Exam review redesigned: mistakes and notes, mistakes only or notes only; collapsible filters with counts; period shortcuts (7 and 30 days); a live count of what's included; progress bar; keyboard shortcuts (Space, 1, 2, →); and "Review the ones I got wrong again" at the end.
+- Colors: the green, red and amber used by notices, buttons and metrics are now one palette, with the same intensity and in harmony with the app's blue; in the default dark theme, text and grays share the same cool tone.
+- Phone: one panel at a time (with a dialog open, the selection menu and the formatting panel no longer sit on top of it); notices right below the top bar; on the canvas the vault badge no longer covers the AI button; search and AI buttons hide while typing.
+- Templates: formal "Meeting minutes"; "Financial report" with executive summary, income statement, cash flow, budget vs. actual and indicators; "Exam review" with a content map, mistakes to avoid and a plan until the exam; "Thesis chapter" with literature review and citations; "Academic report" following the standard report structure.
+
 ## 0.7.0
 - Station Notes is free again, with no trial and no lock: editor, canvas, vault, export and sync. Anyone whose trial had expired can edit again. Pro (one-time payment) adds the study AI, mistake notebook metrics and spaced review, the Soft cyberpunk and Melted ice cream themes, and advanced export (notebook PDF, unbranded image and canvas for Obsidian).
 - Vault badge replaces the note clock: "Saved locally • Backup OK". Clicking it opens version history with the selected version and the current note side by side (removed in red, added in green), "Restore" and "Restore as a new note".
