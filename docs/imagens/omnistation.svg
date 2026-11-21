@@ -1,21 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <!-- OmniStation: grafite do site (#111214, superfície #1a1b1e, borda #2c2d31, texto #ededed) e o azul do Station Notes (#5b8def).
-       Um anel aberto (o "O" de Omni) com uma estação em órbita no vão. -->
+  <!-- OmniStation, preto e branco (21/11/2026). Mesmo desenho de gerador/marca.mjs: um anel aberto (o "O" de Omni)
+       com uma estação em órbita no vão. Fundo preto com um leve brilho branco no alto, como o vidro do site. -->
   <defs>
     <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1e1f23"/>
-      <stop offset="1" stop-color="#111214"/>
+      <stop offset="0" stop-color="#1a1a1c"/>
+      <stop offset="1" stop-color="#09090b"/>
     </linearGradient>
-    <radialGradient id="brilho" cx="0.72" cy="0.28" r="0.55">
-      <stop offset="0" stop-color="#5b8def" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#5b8def" stop-opacity="0"/>
+    <radialGradient id="brilho" cx="0.3" cy="0.12" r="0.7">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect x="8" y="8" width="496" height="496" rx="112" fill="url(#fundo)"/>
   <rect x="8" y="8" width="496" height="496" rx="112" fill="url(#brilho)"/>
-  <rect x="9.5" y="9.5" width="493" height="493" rx="110.5" fill="none" stroke="#2c2d31" stroke-width="3"/>
-  <!-- anel: círculo de raio 150 no centro, aberto no alto à direita (de -75° a -15°) -->
-  <path d="M 294.8 111.1 A 150 150 0 1 0 400.9 217.2" fill="none" stroke="#ededed" stroke-width="46" stroke-linecap="round"/>
-  <!-- estação no vão do anel, sobre o mesmo círculo (-45°) -->
-  <circle cx="362.1" cy="149.9" r="30" fill="#5b8def"/>
+  <rect x="9.5" y="9.5" width="493" height="493" rx="110.5" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="3"/>
+  <path d="M 294.8 111.1 A 150 150 0 1 0 400.9 217.2" fill="none" stroke="#f2f2f2" stroke-width="46" stroke-linecap="round"/>
+  <circle cx="362.1" cy="149.9" r="30" fill="#f2f2f2"/>
 </svg>
