@@ -149,7 +149,7 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 ## Station Notes Pro
 
-- ⚙ → Station Notes Pro shows what Pro includes, how the study AI is expected to run on your device (RAM and CPU), how to buy it (Ko-fi) and where to paste the activation key.
+- ⚙ → Station Notes Pro shows what Pro includes, how the study AI is expected to run on your device (RAM and CPU), how to buy it (on the OmniStation website) and where to paste the activation key.
 - With device sync, the key activates Pro on your other devices automatically.
 
 ## Updates
