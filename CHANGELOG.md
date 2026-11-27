@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.7.3
+- Sync: images inside notes no longer disappear. A note arriving from another device lost its images when opened and went back that way to the others. Fewer "(conflict)" copies too: canvas notes and the empty lines the editor adds on its own no longer count as edits.
+- Images and hand drawings in notes: handles on all 4 corners to resize, showing the percentage while you drag. On phones, tapping an image selects it (without opening the keyboard) and the handles are larger, inside the corners.
+- Exact line spacing: 1.0 is the font's normal line height (as in Word) and 2.0 is double that, with or without Enter between lines.
+- Read aloud: each sentence is read in the voice of its own language (Portuguese, English or Spanish), and you can pick a female or male narrator under ⚙ → Language and voice. If a language's voice is missing on the device, the app shows where to install it.
+- Dictation stays on the device and never sends your voice to the internet. On Android, if the language isn't downloaded, the app shows how to get it. Desktop dictation is gone for now: the Windows one needs the internet.
+- Inherited notebook theme: a worn sheet of paper, no ruled lines, on a wooden study desk (text notes and canvas).
+- Device sync: rename this device (the name reaches the others) and give the others a nickname; a more compact screen.
+- Backup badge: just the green shield; details show on hover.
+- Support: Ko-fi only.
+- Lighter: old code cleaned up; the app no longer redraws the whole screen every minute, and the APK is about 25 MB smaller.
+
 ## 0.7.1
 - Device sync: far fewer "(conflict)" copies. A conflict now only happens when the note's content really changed on both devices since the last exchange; opening a note, moving it to another folder, favoriting it or turning on read mode no longer count as edits.
 - Read mode: fixed the "Failed to execute 'removeChild'" error when turning it on.
